@@ -7,6 +7,202 @@
 .container:after, .clearfix:after {
 	clear: both;
 }
-body{
-	background: #ffffff;
+html, body, #fullheight {
+    min-height: 100% !important;
+	height: 100%;
+	background: #001B24;
+}
+menu{
+	margin: 0;
+    padding: 0;
+}
+.left-side{
+	float:left;
+	display: inline-block;
+	background: #06222E;
+	width: 20%;
+	border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: white;
+}
+.wrapp-logo{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: rgb(255,255,255);
+	text-align: center;
+	padding: 35px;
+}
+.left-side-infoblock{
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: rgb(255,255,255);
+	padding: 55px 0;
+}
+.left-side-infoblock-text-1{
+	font-family: 'mullerultralight';
+	font-size: 25pt;
+	color: rgb(255,255,255);
+}
+.left-side-infoblock-text-2{
+	font-family: 'mullerbold';
+	font-size: 25pt;
+	color: rgb(255,255,255);
+}
+.left-side-menu-item{
+	text-align: left;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	padding: 20px 65px;
+}
+.left-side-menu-bg-1{
+	background-image: url('../img/icons/wallet.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-2{
+	background-image: url('../img/icons/stats.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-3{
+	background-image: url('../img/icons/stats.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-4{
+	background-image: url('../img/icons/arrows.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-5{
+	background-image: url('../img/icons/stats.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-6{
+	background-image: url('../img/icons/ring.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-bg-7{
+	background-image: url('../img/icons/config.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+}
+.left-side-menu-active{
+	background-color: #001B24;
+}
+.left-side-menu-link{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-family: 'mullerlight';
+	font-size: 12pt;
+}
+.logo-img{
+	position: relative;
+	width: 100px;
+}
+.central-side{
+	float:left;
+	background: #001B24;
+	width: 35%;
+	height: 100%;
+}
+.central-side-menu-item{
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+}
+.central-side-menu-item-active{
+	background-color: #06222E;
+}
+.central-side-menu-item-left{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	padding: 20px;
+}
+.central-side-menu-item-right{
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	padding: 20px;
+}
+.central-side-menu-item-text-1{
+	color: rgb(255,255,255);
+	font-family: 'mullerbold';
+	font-size: 25pt;
+}
+.central-side-menu-item-text-2{
+	display: block;
+	color: rgb(255,255,255);
+	font-family: 'mullerlight';
+	font-size: 15pt;
+}
+.central-side-menu-item-text-3{
+	display: block;
+	color: rgb(255,255,255);
+	font-family: 'mullerlight';
+	font-size: 10pt;
+}
+.central-side-menu-button-red{
+	display: block;
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 5px 35px;
+    font-family: "mullerthin";
+    font-size: 12pt;
+    position: relative;
+    border-radius: 15px;
+    background-color: red;
+	text-align: center;
+	background-image: url('../img/icons/arrow_up_white.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 15px;
+}
+.green{
+	background-color: green;
+}
+.central-side-menu-button-select{
+	font-family: "mullerthin";
+	padding: 40px 40px 40px 30px;
+	font-size: 10pt;
+	color: #06FFEC;
+	text-decoration: none;
+	background-image: url('../img/icons/arrow-right.png');
+    background-repeat: no-repeat;
+	background-position: right;
+	display: block;
+}
+.create-new-wallet-button{
+	font-family: "mullerthin";
+	font-size: 9px;
+	color: #06FFEC;
+	padding: 50px 20px;
+	background-image: url('../img/icons/add_wallet.png');
+    background-repeat: no-repeat;
+	background-position: bottom;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+}
+.right-side{
+	background: #06222E;
+	width: 50%;
 }
