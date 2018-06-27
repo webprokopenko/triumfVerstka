@@ -12,9 +12,21 @@ html, body, #fullheight {
 	height: 100%;
 	background: #001B24;
 }
-menu{
+menu,ul{
 	margin: 0;
     padding: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.wrapp-all{
+	max-width: 1200px;
+	display: table;
+  margin: 0 auto;
+
 }
 .left-side{
 	float:left;
@@ -23,7 +35,8 @@ menu{
 	width: 20%;
 	border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: white;
+	border-right-color: white;
+	height: 100%;
 }
 .wrapp-logo{
 	border-bottom-width: 1px;
@@ -114,7 +127,7 @@ menu{
 .central-side{
 	float:left;
 	background: #001B24;
-	width: 35%;
+	width: 37%;
 	height: 100%;
 }
 .central-side-menu-item{
@@ -203,6 +216,189 @@ menu{
 
 }
 .right-side{
+	float:left;
 	background: #06222E;
-	width: 50%;
+	width: 35%;
+	padding: 0 40px;
+	height: 100%;
+	text-align: center;
+}
+.right-side-info-block{
+	padding: 40px 0;
+	text-align: center;
+}
+.right-side-info-img{
+	padding-bottom: 30px;
+}
+.right-side-info-block-text-1{
+	font-family: 'mullerbold';
+	font-size: 25pt;
+	color: rgb(255,255,255);
+	display: block;
+}
+.right-side-info-block-text-2{
+	font-family: 'mullerthin';
+	font-size: 35pt;
+	color: rgb(255,255,255);
+	display: block;
+}
+.right-side-info-block-text-3{
+	font-family: 'mullerultralight';
+	font-size: 15pt;
+	color: rgb(255,255,255);
+	display: block;
+}
+.right-side-button-block{
+	width: 70%;
+	display: table;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.button-send{
+	display: block;
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 15px 35px;
+    font-family: "mullerthin";
+    font-size: 12pt;
+    position: relative;
+    border-radius: 2px;
+    background-color: red;
+	text-align: center;
+}
+.button-resive{
+	display: block;
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 15px 35px;
+    font-family: "mullerthin";
+    font-size: 12pt;
+    position: relative;
+    border-radius: 2px;
+    background-color: green;
+	text-align: center;
+}
+.button-confirm{
+	background-color: #00FFEB;
+	display: block;
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 15px 35px;
+    font-family: "mullerthin";
+    font-size: 12pt;
+    position: relative;
+    border-radius: 2px;
+	text-align: center;
+	display: table;
+	  margin: 0 auto;
+	  width: 200px;
+}
+.right-side-tr-history-block{
+	text-align: center;
+}
+.right-side-tr-history-text-1{
+	font-family: "mullerthin";
+	font-size: 18pt;
+	color: rgb(255,255,255);
+	padding-bottom: 50px;
+}
+.right-side-wrapp-tr-history{
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(255,255,255);
+	border-bottom-width: 1px;
+}
+.right-side-tr-history-item{
+	display: inline-block;
+	padding-right: 5%;
+}
+.right-side-tr-history-link{
+	text-decoration: none;
+	font-family: "mullerthin";
+	font-size: 14pt;
+	color: rgb(255,255,255);
+}
+.right-side-tr-history-link:hover{
+	text-decoration: underline;
+	padding-top: 20px;
+}
+.right-side-tr-history-list{
+	margin-top: 20px;
+}
+.right-side-tr-hisotry-item{
+	display: block;
+	padding-bottom: 30px;
+}
+.right-side-send-transaction{
+	padding-bottom: 100px;
+}
+.tr-history-up{
+	background-image: url('../img/icons/arrow_up.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+	text-align: left;
+	padding: 5px 50px;
+	font-family: 'mullerbold';
+	font-size: 15pt;
+	color: green;
+}
+.tr-history-down{
+	background-image: url('../img/icons/arrow_down.png');
+    background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 20px;
+	text-align: left;
+	padding: 5px 50px;
+	font-family: 'mullerbold';
+	font-size: 15pt;
+	color: green;
+}
+.tr-history-address{
+	font-family: 'mullerthin';
+	font-size: 12pt;
+	color: rgb(255,255,255);
+}
+.tr-history-date{
+	font-family: 'mullerthin';
+	font-size: 10pt;
+	color: rgb(255,255,255);
+}
+.input-send-transaction{
+	width: 100%;
+    padding: 16px 0;
+    margin: 2px 6px 16px 0;
+	background-color: #06222E;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(255,255,255);
+    font-size: 18pt;
+	font-family: "mullerthin";
+	color: rgb(255,255,255);
+}
+.label-send-transaction{
+	color: rgb(255,255,255);
+    font-family: "mullerthin";
+    font-size: 12pt;
+}
+.right-side-confirm-transaction{
+	padding: 50px 0;
+	width: 100%;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(255,255,255);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(255,255,255);
+}
+.text-send-transaction{
+	padding-top: 30px;
+	color: rgb(255,255,255);
+    font-family: "mullerbold";
+    font-size: 18pt;
 }
