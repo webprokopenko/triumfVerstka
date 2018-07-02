@@ -22,13 +22,12 @@ menu,ul{
 .right{
 	float: right;
 }
-.wrapp-all{
+.wrapp_all{
 	max-width: 1200px;
 	display: table;
   margin: 0 auto;
-
 }
-.left-side{
+.left_side{
 	float:left;
 	display: inline-block;
 	background: #06222E;
@@ -38,108 +37,108 @@ menu,ul{
 	border-right-color: white;
 	height: 100%;
 }
-.wrapp-logo{
+.wrapp_logo{
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-color: rgb(255,255,255);
 	text-align: center;
 	padding: 35px;
 }
-.left-side-infoblock{
+.left_side_infoblock{
 	text-align: center;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-color: rgb(255,255,255);
 	padding: 55px 0;
 }
-.left-side-infoblock-text-1{
+.left_side_infoblock_text_1{
 	font-family: 'mullerultralight';
 	font-size: 25pt;
 	color: rgb(255,255,255);
 }
-.left-side-infoblock-text-2{
+.left_side_infoblock_text_2{
 	font-family: 'mullerbold';
 	font-size: 25pt;
 	color: rgb(255,255,255);
 }
-.left-side-menu-item{
+.left_side_menu_item{
 	text-align: left;
 	text-decoration: none;
 	list-style: none;
 	display: block;
 	padding: 20px 65px;
 }
-.left-side-menu-bg-1{
+.left_side_menu_bg_1{
 	background-image: url('../img/icons/wallet.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-2{
+.left_side_menu_bg_2{
 	background-image: url('../img/icons/stats.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-3{
+.left_side_menu_bg_3{
 	background-image: url('../img/icons/stats.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-4{
+.left_side_menu_bg_4{
 	background-image: url('../img/icons/arrows.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-5{
+.left_side_menu_bg_5{
 	background-image: url('../img/icons/stats.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-6{
+.left_side_menu_bg_6{
 	background-image: url('../img/icons/ring.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-bg-7{
+.left_side_menu_bg_7{
 	background-image: url('../img/icons/config.png');
     background-repeat: no-repeat;
 	background-position: left;
 	background-position-x: 20px;
 }
-.left-side-menu-active{
+.left_side_menu_active{
 	background-color: #001B24;
 }
-.left-side-menu-link{
+.left_side_menu_link{
 	text-decoration: none;
 	color: rgb(255,255,255);
 	font-family: 'mullerlight';
 	font-size: 12pt;
 }
-.logo-img{
+.logo_img{
 	position: relative;
 	width: 100px;
 }
-.central-side{
+.central_side{
 	float:left;
 	background: #001B24;
 	width: 37%;
 	height: 100%;
 }
-.central-side-menu-item{
+.central_side_menu_item{
 	text-align: center;
 	text-decoration: none;
 	list-style: none;
 	display: block;
 }
-.central-side-menu-item-active{
+.central_side_menu_item_active{
 	background-color: #06222E;
 }
-.central-side-menu-item-left{
+.central_side_menu_item_left{
 	float: left;
 	text-align: center;
 	text-decoration: none;
@@ -147,7 +146,7 @@ menu,ul{
 	display: block;
 	padding: 20px;
 }
-.central-side-menu-item-right{
+.central_side_menu_item_right{
 	float: right;
 	text-align: center;
 	text-decoration: none;
@@ -155,24 +154,24 @@ menu,ul{
 	display: block;
 	padding: 20px;
 }
-.central-side-menu-item-text-1{
+.central_side_menu_item_text_1{
 	color: rgb(255,255,255);
 	font-family: 'mullerbold';
 	font-size: 25pt;
 }
-.central-side-menu-item-text-2{
+.central_side_menu_item_text_2{
 	display: block;
 	color: rgb(255,255,255);
 	font-family: 'mullerlight';
 	font-size: 15pt;
 }
-.central-side-menu-item-text-3{
+.central_side_menu_item_text_3{
 	display: block;
 	color: rgb(255,255,255);
 	font-family: 'mullerlight';
 	font-size: 10pt;
 }
-.central-side-menu-button-red{
+.central_side_menu_button_red{
 	display: block;
 	text-decoration: none;
     color: rgb(255,255,255);
@@ -191,7 +190,7 @@ menu,ul{
 .green{
 	background-color: green;
 }
-.central-side-menu-button-select{
+.central_side_menu_button_select{
 	font-family: "mullerthin";
 	padding: 40px 40px 40px 30px;
 	font-size: 10pt;
@@ -202,7 +201,7 @@ menu,ul{
 	background-position: right;
 	display: block;
 }
-.create-new-wallet-button{
+.create_new_wallet_button{
 	font-family: "mullerthin";
 	font-size: 9px;
 	color: #06FFEC;
@@ -215,7 +214,7 @@ menu,ul{
 	text-decoration: none;
 
 }
-.right-side{
+.right_side{
 	float:left;
 	background: #06222E;
 	width: 35%;
@@ -223,38 +222,38 @@ menu,ul{
 	height: 100%;
 	text-align: center;
 }
-.right-side-info-block{
+.right_side_info_block{
 	padding: 40px 0;
 	text-align: center;
 }
-.right-side-info-img{
+.right_side_info_img{
 	padding-bottom: 30px;
 }
-.right-side-info-block-text-1{
+.right_side_info_block_text_1{
 	font-family: 'mullerbold';
 	font-size: 25pt;
 	color: rgb(255,255,255);
 	display: block;
 }
-.right-side-info-block-text-2{
+.right_side_info_block_text_2{
 	font-family: 'mullerthin';
 	font-size: 35pt;
 	color: rgb(255,255,255);
 	display: block;
 }
-.right-side-info-block-text-3{
+.right_side_info_block_text_3{
 	font-family: 'mullerultralight';
 	font-size: 15pt;
 	color: rgb(255,255,255);
 	display: block;
 }
-.right-side-button-block{
+.right_side_button_block{
 	width: 70%;
 	display: table;
   margin: 0 auto;
   padding-bottom: 100px;
 }
-.button-send{
+.button_send{
 	display: block;
 	text-decoration: none;
     color: rgb(255,255,255);
@@ -266,7 +265,7 @@ menu,ul{
     background-color: red;
 	text-align: center;
 }
-.button-resive{
+.button_resive{
 	display: block;
 	text-decoration: none;
     color: rgb(255,255,255);
@@ -278,7 +277,7 @@ menu,ul{
     background-color: green;
 	text-align: center;
 }
-.button-confirm{
+.button_confirm{
 	background-color: #00FFEB;
 	display: block;
 	text-decoration: none;
@@ -293,46 +292,46 @@ menu,ul{
 	  margin: 0 auto;
 	  width: 200px;
 }
-.right-side-tr-history-block{
+.right_side_tr_history_block{
 	text-align: center;
 }
-.right-side-tr-history-text-1{
+.right_side_tr_history_text_1{
 	font-family: "mullerthin";
 	font-size: 18pt;
 	color: rgb(255,255,255);
 	padding-bottom: 50px;
 }
-.right-side-wrapp-tr-history{
+.right_side_wrapp_tr_history{
 	width: 100%;
 	border-bottom-style: solid;
 	border-bottom-color: rgb(255,255,255);
 	border-bottom-width: 1px;
 }
-.right-side-tr-history-item{
+.right_side_tr_history_item{
 	display: inline-block;
 	padding-right: 5%;
 }
-.right-side-tr-history-link{
+.right_side_tr_history_link{
 	text-decoration: none;
 	font-family: "mullerthin";
 	font-size: 14pt;
 	color: rgb(255,255,255);
 }
-.right-side-tr-history-link:hover{
+.right_side_tr_history_link:hover{
 	text-decoration: underline;
 	padding-top: 20px;
 }
-.right-side-tr-history-list{
+.right_side_tr_history_list{
 	margin-top: 20px;
 }
-.right-side-tr-hisotry-item{
+.right_side_tr_hisotry_item{
 	display: block;
 	padding-bottom: 30px;
 }
-.right-side-send-transaction{
+.right_side_send_transaction{
 	padding-bottom: 100px;
 }
-.tr-history-up{
+.tr_history_up{
 	background-image: url('../img/icons/arrow_up.png');
     background-repeat: no-repeat;
 	background-position: left;
@@ -343,7 +342,7 @@ menu,ul{
 	font-size: 15pt;
 	color: green;
 }
-.tr-history-down{
+.tr_history_down{
 	background-image: url('../img/icons/arrow_down.png');
     background-repeat: no-repeat;
 	background-position: left;
@@ -354,17 +353,17 @@ menu,ul{
 	font-size: 15pt;
 	color: green;
 }
-.tr-history-address{
+.tr_history_address{
 	font-family: 'mullerthin';
 	font-size: 12pt;
 	color: rgb(255,255,255);
 }
-.tr-history-date{
+.tr_history_date{
 	font-family: 'mullerthin';
 	font-size: 10pt;
 	color: rgb(255,255,255);
 }
-.input-send-transaction{
+.input_send_transaction{
 	width: 100%;
     padding: 16px 0;
     margin: 2px 6px 16px 0;
@@ -379,12 +378,12 @@ menu,ul{
 	font-family: "mullerthin";
 	color: rgb(255,255,255);
 }
-.label-send-transaction{
+.label_send_transaction{
 	color: rgb(255,255,255);
     font-family: "mullerthin";
     font-size: 12pt;
 }
-.right-side-confirm-transaction{
+.right_side_confirm_transaction{
 	padding: 50px 0;
 	width: 100%;
 	border-left-width: 0;
@@ -396,7 +395,7 @@ menu,ul{
 	border-bottom-style: solid;
 	border-bottom-color: rgb(255,255,255);
 }
-.text-send-transaction{
+.text_send_transaction{
 	padding-top: 30px;
 	color: rgb(255,255,255);
     font-family: "mullerbold";
