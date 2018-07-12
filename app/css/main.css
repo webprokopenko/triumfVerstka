@@ -401,3 +401,8 @@ menu,ul{
     font-family: "mullerbold";
     font-size: 18pt;
 }
+.text_send_transaction_1{
+	color: #00FFEB;
+    font-family: "mullerthin";
+    font-size: 18pt;
+}
