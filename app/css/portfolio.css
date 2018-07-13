@@ -1,0 +1,56 @@
+.portfolio_side{
+    float:left;
+	background: #001B24;
+	width: 79%;
+    height: 100%;
+    text-align: center;
+}
+.wrapp_all{
+	max-width: 1200px;
+    display: block !important;
+    margin: 0 auto;
+}
+.portfolio_menu{
+    padding: 10px 100px;
+}
+.portfolio_menu_item{
+    display: inline-block;
+    padding-right: 50px;
+}
+.portfolio_menu_item_link {
+    background-color: #001B24;
+	display: block;
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 10px 55px;
+    font-family: "mullerthin";
+    font-size: 10pt;
+    position: relative;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #00FFEB;
+    border-style: solid;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+}
+.portfolio_menu_item_link_active{
+    background-color: #00FFEB;
+	display: block;
+	text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 10px 55px;
+    font-family: "mullerthin";
+    font-size: 10pt;
+    position: relative;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #00FFEB;
+    border-style: solid;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+}
+.portfolio_graph{
+    width: 100%;
+}
